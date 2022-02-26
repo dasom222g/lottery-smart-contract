@@ -1,0 +1,201 @@
+{
+  "contractName": "Lottery",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "testLottery",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.11+commit.d7f03943\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"testLottery\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/Lottery.sol\":\"Lottery\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/Lottery.sol\":{\"keccak256\":\"0xa8467e0cc258f744451afe44a85698510f8539b53612586399dc953775df6ceb\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://d6f9fd4b957a0f889936828007a4dcdee6cee603d7a77b14cdcccc095f688602\",\"dweb:/ipfs/QmTHz9x7s3A17JKNmLyL8vD2HYJ1EdLV8qp2yPsiw5QZny\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50606d80601d6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80630e5fe4dc14602d575b600080fd5b60336035565b005b56fea26469706673582212206049f326ce627a17cffa8aaa7febfe977d6cf229f0ce08a7fa66939061ca4ef464736f6c634300080b0033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80630e5fe4dc14602d575b600080fd5b60336035565b005b56fea26469706673582212206049f326ce627a17cffa8aaa7febfe977d6cf229f0ce08a7fa66939061ca4ef464736f6c634300080b0033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "69:68:0:-:0;;;;;;;;;;;;;;;;;;;",
+  "deployedSourceMap": "69:68:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;91:43;;;:::i;:::-;;;:::o",
+  "source": "// SPDX-License-Identifier: MIT\r\npragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract Lottery {\r\n  function testLottery () public {\r\n    \r\n  }\r\n}",
+  "sourcePath": "C:\\Users\\USER\\dasom\\web3\\github.com\\dasom222g\\lottery-smart-contract\\contracts\\Lottery.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/Lottery.sol",
+    "exportedSymbols": {
+      "Lottery": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Lottery",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Lottery",
+        "nameLocation": "78:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "122:12:0",
+              "statements": []
+            },
+            "functionSelector": "0e5fe4dc",
+            "id": 5,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testLottery",
+            "nameLocation": "100:11:0",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "122:0:0"
+            },
+            "scope": 6,
+            "src": "91:43:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "69:68:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:104:0"
+  },
+  "legacyAST": {
+    "absolutePath": "project:/contracts/Lottery.sol",
+    "exportedSymbols": {
+      "Lottery": [
+        6
+      ]
+    },
+    "id": 7,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:32:0"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "Lottery",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 6,
+        "linearizedBaseContracts": [
+          6
+        ],
+        "name": "Lottery",
+        "nameLocation": "78:7:0",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 4,
+              "nodeType": "Block",
+              "src": "122:12:0",
+              "statements": []
+            },
+            "functionSelector": "0e5fe4dc",
+            "id": 5,
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "testLottery",
+            "nameLocation": "100:11:0",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "112:2:0"
+            },
+            "returnParameters": {
+              "id": 3,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "122:0:0"
+            },
+            "scope": 6,
+            "src": "91:43:0",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 7,
+        "src": "69:68:0",
+        "usedErrors": []
+      }
+    ],
+    "src": "33:104:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.11+commit.d7f03943.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.5",
+  "updatedAt": "2022-02-26T14:40:37.288Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
